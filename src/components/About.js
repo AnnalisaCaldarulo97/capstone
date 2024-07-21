@@ -2,7 +2,7 @@ import { LoremIpsum, Avatar } from 'react-lorem-ipsum';
 
 function About() {
     return (
-        <div className="about-cointainer">
+        <div className="about-cointainer" id='about'>
             <div className="container pt-5 h-100">
                 <div className="row justify-content-center h-100 align-items-center">
                     <div className="col-12 col-md-6 text-start">
@@ -11,10 +11,10 @@ function About() {
                     </div>
                     <div className="col-12 col-md-6 about-images ">
                         <div className='img-1'>
-                            <img className='' src='/media/Mario and Adrian A.jpg' />
+                            <img className='shadow' src='/media/Mario and Adrian A.webp' />
                         </div>
                         <div className='img-2'>
-                            <img className='' src='/media/Mario and Adrian b.jpg' />
+                            <img className='' src='/media/Mario and Adrian b.webp' />
                         </div>
                     </div>
                 </div>

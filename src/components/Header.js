@@ -14,7 +14,7 @@ function Header() {
                         </div>
                     </div>
                     <div className="col-12 col-md-6 d-flex justify-content-center header-img">
-                        <img src="../media/restauranfood.jpg" className="header-img " alt="restaurant food" />
+                        <img src="../media/restauranfood.webp" className="header-img " alt="restaurant food" />
                     </div>
                 </div>
             </article>

@@ -5,23 +5,23 @@ function Main() {
             title: "Greek salad",
             price: "$12.99",
             description: "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutouns.",
-            getImageSrc: () => require("../assets/greek salad.jpg")
+            getImageSrc: () => require("../assets/greek salad.webp")
         },
         {
             title: "Bruschetta",
             price: "$5.99",
             description: "Our Bruschetta is made rom frilled bread that has been smeared with garlic and seasoned with salt and olive oil.",
-            getImageSrc: () => require("../assets/bruscheta.jpg")
+            getImageSrc: () => require("../assets/bruscheta.webp")
         },
         {
             title: "Lemon Dessert",
             price: "$5.00",
             description: "This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.",
-            getImageSrc: () => require("../assets/lemon dessert.jpg")
+            getImageSrc: () => require("../assets/lemon dessert.webp")
         },
     ]
     return (
-        <main className="min-vh-100 container ps-custom">
+        <main className="min-vh-100 container ps-custom" id="main">
             <div className="row align-items-center justify-content-between ">
                 <div className="col-12 col-md-6">
                     <h1 className="title-font title-main text-start">This weeks specials!</h1>

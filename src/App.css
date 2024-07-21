@@ -58,6 +58,7 @@ body {
 }
 
 /* nav */
+
 .nav-item {
   color: black;
   font-weight: bold;
@@ -174,12 +175,17 @@ main {
   transition: transform .3s ease-in-out;
 }
 
+
 .card-end span:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
 
 /* testimonials */
+.Testimonial {
+  height: 70vh;
+}
+
 .testimonial-card {
   background-color: var(--green);
   border-radius: 14px;
@@ -217,18 +223,27 @@ main {
 .img-1 {
   float: left;
   width: 66%;
-  margin-right: -100%;
-  padding-top: 15%;
+  margin-right: -200%;
+  padding-top: 25%;
   position: relative;
   z-index: 1;
 }
 
 .img-2 {
   float: right;
-  width: 75%;
+  width: 50%;
 }
 
 
+/* footer */
+
+.footer-p {
+  font-weight: 100;
+}
+
+.logofooter {
+  width: 170px;
+}
 
 @media screen and (max-width: 992px) {
   .header-img {

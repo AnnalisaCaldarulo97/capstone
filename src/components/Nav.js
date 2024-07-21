@@ -8,12 +8,12 @@ function Nav() {
                     </a>
                 </div>
                 <ul className="col-12 col-md-5 d-flex justify-content-around  list-unstyled pt-3 text-font">
-                    <li className="nav-item"> <a href="#" className="nav-link">Home</a> </li>
-                    <li className="nav-item"> <a href="#" className="nav-link">About</a> </li>
-                    <li className="nav-item"> <a href="#" className="nav-link">Menu</a> </li>
+                    <li className="nav-item"> <a href="#main" className="nav-link">Home</a> </li>
+                    <li className="nav-item"> <a href="#about" className="nav-link">About</a> </li>
+                    <li className="nav-item"> <a href="#main" className="nav-link">Menu</a> </li>
                     <li className="nav-item"> <a href="#" className="nav-link">Reservations</a> </li>
                     <li className="nav-item"> <a href="#" className="nav-link">Order online</a> </li>
-                    <li className="nav-item"> <a href="#" className="nav-link">Login</a> </li>
+                    <li className="nav-item"> <a href="#reviews" className="nav-link">Reviews</a> </li>
                 </ul>
             </div>
         </nav>
