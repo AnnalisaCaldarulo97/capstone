@@ -19,8 +19,29 @@
 .title-font {
   font-family: 'markazi';
 }
-.text-font{
+
+.text-font {
   font-family: 'karla';
+}
+
+.green {
+  color: var(--green);
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.orange {
+  color: var(--orange);
+}
+
+.pink {
+  color: var(--pink);
+}
+
+.light {
+  color: var(--light);
 }
 
 .App {
@@ -32,4 +53,48 @@
   color: black;
   font-weight: bold;
   font-size: large;
+}
+
+.btn-yellow {
+  background-color: var(--yellow);
+  color: black;
+  border-radius: 12px;
+  padding: 9px 30px;
+  text-decoration: none;
+  font-family: 'karla';
+  font-weight: bolder;
+  font-size: 20px;
+  width: 200px;
+}
+.btn-container{
+  height: 20%;
+}
+/* header */
+.title {
+  font-size: 70px;
+  line-height: 0.5;
+
+}
+.subtitle {
+  font-size: 40px;
+
+}
+
+header {
+  background-color: var(--green);
+  height: 340px;
+}
+
+.header-img {
+  width: 430px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.description {
+  font-weight: light;
+  font-size: 20px;
+  line-height: 1;
+
 }
