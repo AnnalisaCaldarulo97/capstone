@@ -30,11 +30,11 @@ function Testimonials() {
         },
     ]
     return (
-        <div className="vh-100 container">
+        <div className="vh-100 container  d-flex  flex-column justify-content-center">
             <div className="row py-5">
                 <h1 className="title-font title orange mb-5">Testimonials</h1>
             </div>
-            <div className="row justify-content-center align-items-center">
+            <div className="row justify-content-center align-items-center ">
                 {testimonials.map((p) =>
                     <div className="col-12 col-md-3">
                         <div className="testimonial-card py-2 mb-3 light text-font">

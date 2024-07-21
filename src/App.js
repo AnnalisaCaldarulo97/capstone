@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Main from './components/Main';
 import Testimonials from "./components/Testimonials";
+import About from './components/About';
 
 
 import Footer from './components/Footer';
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <Main />
       <Testimonials />
+      <About />
       <Footer />
     </div>
   );
