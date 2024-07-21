@@ -6,6 +6,14 @@
   --light: #edefee;
 }
 
+.ps-custom {
+  padding-left: 50px;
+}
+body{
+  overflow-x: hidden;
+  margin: 0;
+}
+
 @font-face {
   font-family: 'markazi';
   src: url('/public/Markazi_Text/MarkaziText-VariableFont_wght.ttf');
@@ -114,8 +122,9 @@ main {
 
 /* card */
 
+.card-titles h3,
 .card-titles>p {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: 30px;
 }
 
 .Card {
@@ -151,20 +160,50 @@ main {
 }
 
 .card-end span::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    border-radius: 4px;
-    background-color: #18272F;
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
-  }
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #18272F;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
 
 .card-end span:hover::before {
   transform-origin: left;
   transform: scaleX(1);
+}
+
+/* testimonials */
+.testimonial-card {
+  background-color: var(--green);
+  border-radius: 14px;
+}
+.testimonal-img{
+  border-radius: 50%;
+  object-fit: cover;
+  width: 100px ;
+  height: 100px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+  .header-img {
+    display: none;
+  }
+  main {
+    margin-top: 10px;
+  }
+  
+  .title-main {
+    font-size: 50px;
+  }
+  .Card{
+    margin: 40px auto;
+  }
 }

@@ -1,11 +1,11 @@
 const Card = ({ title, price, description, imageSrc }) => {
     return (
-        <div className="Card ">
+        <div className="Card mx-auto mt-5">
             <img src={imageSrc} className="card-image" />
             <div className="card-body text-start px-4 py-3">
-                <div className="card-titles title-font d-flex justify-content-between align-items-center">
-                    <h3 className="card-title">{title}</h3>
-                    <p className="yellow">{price}</p>
+                <div className="card-titles title-font d-flex justify-content-between align-items-center ">
+                    <h3 className=" my-auto">{title}</h3>
+                    <p className="yellow price  my-auto">{price}</p>
                 </div>
                 <p className="text-font">
                     {description}

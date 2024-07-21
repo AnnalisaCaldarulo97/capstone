@@ -21,8 +21,8 @@ function Main() {
         },
     ]
     return (
-        <main className="vh-100 container">
-            <div className="row align-items-center justify-content-between">
+        <main className="min-vh-100 container ps-custom">
+            <div className="row align-items-center justify-content-between ">
                 <div className="col-12 col-md-6">
                     <h1 className="title-font title-main text-start">This weeks specials!</h1>
                 </div>
@@ -30,7 +30,7 @@ function Main() {
                     <a href="#" className="btn-yellow py-3 px-5">Online Menu</a>
                 </div>
             </div>
-            <div className="row justify-content-center">
+            <div className="row justify-content-between">
                 {specials.map((special) => (
                     <div className="col-12 col-md-4">
                         <Card
