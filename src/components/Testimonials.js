@@ -42,7 +42,7 @@ function Testimonials() {
                             <h3 className="title-font">{p.name}</h3>
                             <div className="vote d-flex justify-content-center">
                                 <p>{p.vote}  </p>
-                                <span className="d-flex"> <img src="/media/star.png" className="" height='25px' /> </span>
+                                <span className="d-flex"> <img src="/media/star.png"  height='25px' /> </span>
                             </div>
                             <p>{p.description}</p>
                         </div>
