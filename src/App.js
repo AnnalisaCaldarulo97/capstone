@@ -7,6 +7,7 @@ import Nav from './components/Nav';
 import Main from './components/Main';
 import Testimonials from "./components/Testimonials";
 import About from './components/About';
+import BookingPage from './components/BookingPage';
 
 
 import Footer from './components/Footer';
@@ -17,6 +18,7 @@ function App() {
       <Nav />
       <Header />
       <Main />
+      <BookingPage />
       <Testimonials />
       <About />
       <Footer />

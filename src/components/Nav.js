@@ -1,3 +1,8 @@
+// import { Routes, Route, Link } from 'react-router-dom';
+// import Testimonials from './Testimonials';
+// import App from '../App';
+// import About from './About';
+// import Main from './Main';
 function Nav() {
     return (
         <nav className="ps-custom container">
@@ -14,6 +19,14 @@ function Nav() {
                     <li className="nav-item"> <a href="#" className="nav-link">Reservations</a> </li>
                     <li className="nav-item"> <a href="#" className="nav-link">Order online</a> </li>
                     <li className="nav-item"> <a href="#reviews" className="nav-link">Reviews</a> </li>
+                    {/* <Routes>
+                        <Route path='/' element={<App />} />
+                        <Route path='/about-us' element={<About />} />
+                        <Route path='/hero' element={<Main />} />
+                        <Route path='/reviews' element={<Testimonials />} />
+                    </Routes> */}
+
+
                 </ul>
             </div>
         </nav>
