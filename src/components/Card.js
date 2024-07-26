@@ -14,7 +14,7 @@ const Card = ({ title, price, description, imageSrc }) => {
             <div className="card-end text-start px-4 pb-4">
                 <span className=" d-flex align-items-center ">
                     <a className="text-dark text-font me-2 delivery" href="#">Order a delivery</a>
-                    <i class="bi bi-bicycle i"></i>
+                    <i className="bi bi-bicycle i"></i>
                 </span>
             </div>
         </div>

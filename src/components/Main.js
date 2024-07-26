@@ -2,18 +2,21 @@ import Card from "./Card";
 function Main() {
     const specials = [
         {
+            key: 'special1',
             title: "Greek salad",
             price: "$12.99",
             description: "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutouns.",
             getImageSrc: () => require("../assets/greek salad.webp")
         },
         {
+            key: 'special2',
             title: "Bruschetta",
             price: "$5.99",
             description: "Our Bruschetta is made rom frilled bread that has been smeared with garlic and seasoned with salt and olive oil.",
             getImageSrc: () => require("../assets/bruscheta.webp")
         },
         {
+            key: 'special3',
             title: "Lemon Dessert",
             price: "$5.00",
             description: "This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.",
@@ -34,7 +37,7 @@ function Main() {
                 {specials.map((special) => (
                     <div className="col-12 col-md-4">
                         <Card
-                            key={special.title}
+                            key={special.key}
                             title={special.title}
                             price={special.price}
                             description={special.description}

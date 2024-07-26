@@ -35,9 +35,9 @@ function Testimonials() {
             </div>
             <div className="row justify-content-center align-items-center ">
                 {testimonials.map((p) =>
-                    <div className="col-12 col-md-3">
+                    <div className="col-12 col-md-3" key={p.name}>
                         <div className="testimonial-card py-2 mb-3 light text-font">
-                            <img src={p.getImageSrc()} class="" className="testimonal-img" alt="..." />
+                            <img src={p.getImageSrc()} className="testimonal-img" alt="..." />
                             <h3 className="title-font">{p.name}</h3>
                             <div className="vote d-flex justify-content-center">
                                 <p>{p.vote}  </p>
